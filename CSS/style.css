@@ -1,4 +1,74 @@
+html{
+  position: relative;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+.nav{
+  height: 200px;
+  width: 100%;
+}
+.buttons input{
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.footer{
+  width: 100%;
+  position: absolute;
+  bottom: 8px;
+}
+
 #searchbox{
   height: 34px;
   width: 503px;
+}
+
+#logo{
+  height: 201px;
+  width: 300px;
+}
+
+#topleft{
+  display:inline;
+  height: 50px;
+  width: 150px;
+}
+
+#topleft a{
+  display: inline;
+  padding-left: 15px;
+}
+
+#topright{
+  display: inline;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+#topright a{
+  display: inline;
+  padding-right: 15px;
+}
+
+#bottomleft{
+  display: inline;
+}
+
+#bottomleft a{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+#bottomright{
+  position: absolute;
+  right: 16px;
+  display: inline;
+}
+
+#bottomright a{
+  padding-right: 8px;
+  padding-left: 8px;
 }
